@@ -1,0 +1,141 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #08b757 !important;
+    margin: 2px !important; /* Reduced space between cards */
+    width: auto; /* Allow cards to adjust to content */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold !important;
+    color: #09111a;
+    margin-top: -20px !important;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    color: #2405b0 !important;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fdfcfe;
+}
+
+.fa-user-tie {
+    color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold;
+    margin-top: -10px !important;
+}
+
+.fa-phone-alt {
+    color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold; 
+    margin-top: -10px !important;/* Space between icon and text */
+}
+
+.fa-user {
+   color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold; 
+    margin-top: -10px !important; 
+}
+
+.fa-newspaper {
+    color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold; 
+    margin-top: -10px !important;
+}
+.fa-users {
+    color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold; 
+    margin-top: -10px !important;
+}
+.fa-comments{
+    color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold; 
+    margin-top: -10px !important;
+}
+.fa-check-circle{
+    color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold; 
+    margin-top: -10px !important;
+}
+.fa-clock{
+    color: #080808; /* Icon color */
+    margin-right: 18px !important; /* Space between icon and text */
+    font-weight: bold; 
+    margin-top: -10px !important;
+}
+.fa-plus-circle{
+    color: #7f66eb !important;
+    
+}
+.circle {
+    width: 60px;
+    height: 40px;
+    border-radius: 0%;
+    background-color: #290987; /* Circle Background */
+    color: rgb(242, 242, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn-primary {
+    background-color: #0055A3 !important;
+    color: #b2b3d9 !important;
+    border: none;
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+   
+}
+
+.btn-primary:hover {
+    background-color: #004080 !important;
+    transition: background-color 0.3s;
+}
+.btn-secandary{
+    background-color: #007bff !important;
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(242, 242, 248) !important;
+}
+.btn-secandary:hover {
+    background-color: #387bc4 !important;
+    transition: background-color 0.3s;
+}
+.modal-backdrop {
+    background-color: rgba(52, 52, 52, 0.5) !important; /* Semi-transparent black */
+}
+.form-check {
+    margin-left: 40px !important; /* Slightly shift the checkboxes to the right */
+}
+

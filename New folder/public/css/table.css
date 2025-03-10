@@ -1,0 +1,16 @@
+.table th, 
+.table td {
+    
+    vertical-align: middle;
+}
+    
+.search-section {
+    max-width: 200px;    
+}
+
+.no-data-message 
+{
+    text-align: center;
+    font-size: 1.2em;
+    color: #f44336;
+}

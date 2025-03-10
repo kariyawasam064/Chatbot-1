@@ -1,0 +1,23 @@
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 0.3em 0.6em;
+}
+
+.table-success th {
+    background-color: #f3f5f4;
+    color: white;
+}
+
+.btn-outline-success i {
+    margin-right: 5px;
+}
+
+.dropdown-menu a i {
+    margin-right: 5px;
+}

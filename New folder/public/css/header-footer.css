@@ -1,0 +1,54 @@
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #ffffff, #d3d3d3); /* Gradient from white to grey */
+    color: black; /* Adjust text color if needed */
+    padding: 10px 15px; /* Reduce header size */
+    height: 50px; /* You can adjust this height as needed */
+}
+
+header .logo img {
+    height: 30px; /* Adjust logo size */
+}
+
+header .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .profile-icon i {
+    font-size: 16px; /* Adjust icon size */
+}
+
+/* Logout Button */
+header .btn-danger {
+    background-color: #0462b3;
+    border: none;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+header .btn-danger:hover {
+    background-color: #4093e6;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to right, #d3d3d3, #ffffff); /* Gradient from white to grey */
+    color: #303132; /* Dark text color */
+    text-align: center;
+    border-top: 1px solid #e3e3e3; /* Subtle border on top */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d; /* Subtle gray color for text */
+}

@@ -1,0 +1,70 @@
+/* Parent container for main content */
+.container {
+    display: flex;
+    min-height: calc(100vh - 70px - 60px); /* Adjust height based on header/footer */
+    width: 100%; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+/* Main Content Styles */
+.main-content {
+    width: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-content:hover {
+    border: 2px solid #0275d8;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Picture Section */
+.profile-picture {
+    background-color: #c1f0c1;
+    color: #008000;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-picture button {
+    background-color: #0eac21;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-picture button:hover {
+    background-color: #26652d;
+}
+
+/* Profile Details Section */
+.profile-details {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+/* Change Password Section */
+.change-password {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success
+{
+    background-color: #0eac21;
+}
+
+.btn-success:hover{
+    background-color: #26652d;
+}
