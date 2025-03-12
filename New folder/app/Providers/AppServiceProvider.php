@@ -1,3 +1,4 @@
+<?php
 use Livewire\Livewire;
 
 public function boot(): void
