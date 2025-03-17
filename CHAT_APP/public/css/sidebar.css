@@ -1,0 +1,44 @@
+
+
+/* Sidebar Styles */
+#sidebar {
+    background-color: #0055A3 !important; /* Sidebar background color */
+    color: rgb(248, 248, 249);
+    width: 300px !important; /* Sidebar width */
+    height: 100vh; /* Full viewport height */
+    display: flex !important;
+    flex-direction: column;
+    padding-top: 20px; /* Spacing from the top */
+}
+
+/* Navigation Links - Make full width */
+#sidebar .nav-link {
+    color: rgb(234, 229, 254) !important;
+    font-size: 16px;
+    padding: 18px 50px !important; /* Padding inside the links */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Make links flex containers */
+    align-items: center; /* Center vertically the text and icon */
+    justify-content: flex-start; /* Align to the left */
+    width: 100%; /* Make links take full width */
+    background-color: transparent; /* Transparent background */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Adjust text and icon slightly left of center */
+#sidebar .nav-link i {
+    margin-right: 20px; /* Add spacing between the icon and text */
+    font-weight: bold !important; 
+}
+
+#sidebar .nav-link:hover {
+    background-color: #0066cc; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+
+/* Style for Active Link */
+#sidebar .nav-link:active {
+    background-color: #004080; /* Background color for the active link */
+    color: white !important; /* Text color for the active link */
+    font-weight: bold; /* Optional: Make the text bold */
+}
